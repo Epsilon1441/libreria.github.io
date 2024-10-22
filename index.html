@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Librería</title>
+    <style>
+        /* Estilos comunes */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: pink;
+            padding: 10px 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Añadido para una mejor distribución */
+        }
+        .header img {
+            height: 100px; /* Ajustado el tamaño para pantallas más pequeñas */
+            margin-right: 20px;
+        }
+        .header nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+        }
+        .content {
+            padding: 20px;
+            background-color: #ffe4e1;
+        }
+        .content h1, .content h2 {
+            color: green;
+        }
+        .images img {
+            margin: 10px 0;
+        }
+        @media (max-width: 768px) {
+            .header img {
+                height: 70px; /* Reducción en tablets */
+            }
+            .images img {
+                width: 100%; /* Imágenes al 100% en pantallas pequeñas */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="elena4.png" alt="Logo">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="2 quienes somos.html">Quienes Somos</a>
+            <a href="3 contacto.html">Contacto</a>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="contenedorh1">
+        <h1>Promociones de la Librería</h1>
+        </div>
+        <div class="contenedorp">
+        <p class="classp">¡Bienvenidos a nuestra librería! Ofrecemos una amplia gama de productos escolares. Aprovecha nuestras promociones y descuentos en artículos seleccionados.</p>
+        <p class="classp">Recomendamos especialmente nuestros marcadores Posca, cuadernos de calidad y mochilas resistentes. ¡Visítanos para más ofertas!</p>
+        </div>
+        <div class="contenedorimagenes">
+        <div class="images">
+            <a href=""><img  class="imagenes1" src="https://www.diarioeltiempo.com.ar/contenido/noticias/original/1642433293.jpeg" alt="Artículos Escolares" width="600px"></a>
+            <a href=""><img class="imagenes2" src="posca.png" alt="Marcadores Posca" width="338x"></a>
+            <a href=""><img class="imagenes3" src="https://www.papeleratroquelcor.com.ar/documentos/1/00011860759Slider2.jpg" alt="Artículos Escolares" style="height: 377px;"></a>
+           <a href=""><img class="imagenes4" src="https://diariotextual.com/inicio/wp-content/uploads/2019/01/utilesescolares333.jpg" alt="Artículos Escolares" width="945px" style="height: 377px;"></a>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

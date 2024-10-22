@@ -1,0 +1,85 @@
+.contenedorh1{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.contenedorp{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+
+}
+
+.classp{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+}
+
+
+
+.contenedorimagenes{
+    padding: 0 5%;
+    gap: rem;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    border-color: black;
+    border-width: 600px;
+    
+    
+}
+.imagenes1{
+    
+    height: 200px;
+    border-radius: 15px;
+     
+     
+}
+
+.imagenes1:hover{
+     
+    transform: scale(1.2); /* Aumenta el tamaño de la imagen al pasar el ratón */
+        }
+ 
+
+.imagenes2{
+    
+    height: 200px;
+    border-radius: 15px;
+     
+}
+
+.imagenes2:hover{
+     
+    transform: scale(1.2); /* Aumenta el tamaño de la imagen al pasar el ratón */
+    
+        }
+ 
+
+.imagenes3{
+    
+    height: 200px;
+    border-radius: 15px;
+     
+}
+
+.imagenes3:hover{
+     
+    transform: scale(1.2); /* Aumenta el tamaño de la imagen al pasar el ratón */
+    
+        }
+ 
+
+.imagenes4{
+    
+    height: 200px;
+    border-radius: 15px;
+     
+}
+.imagenes4:hover{
+     
+    transform: scale(1.2); /* Aumenta el tamaño de la imagen al pasar el ratón */
+        }
+ 

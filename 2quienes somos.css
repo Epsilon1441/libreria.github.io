@@ -1,0 +1,23 @@
+.contenedorp{
+    background-color: antiquewhite;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 2%;
+    border: 5px solid black; /* Borde negro y grueso */
+    border-radius: 20px;
+    
+}
+.clasep{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+.contenedormadreehija{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    border: 5px solid black; /* Borde negro y grueso */
+    border-radius: 20px;
+
+
+}
